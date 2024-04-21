@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed; /* Fixed position for the sidebar */
+    top: 0;
+    left: 0;
+    background-color: hsl(0, 88%, 37%);
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px; /* Added margin to separate header from buttons */
+}
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    background-color: #b20b0b;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 5px; /* Added border radius for button */
+}
+
+.sidebar-menu button:hover {
+    background-color: #861a1a; /* Darkened color on hover */
+}
+.card-menu {
+    position: absolute; /* Position absolue par rapport au conteneur parent */
+    bottom: 20px; /* Espacement par rapport au bas de la barre latérale */
+    left: 0; /* Alignement à gauche */
+    right: 0; /* Alignement à droite */
+    text-align: center; /* Centrer horizontalement */
+}
+
+.card-menu-items {
+    margin-bottom: 10px;
+            padding: 10px;
+            width: 80%;
+            background-color: #b20b0b;
+            border: none;
+            cursor: pointer;
+            color: white;
+            display: block;
+            text-align: center;
+            border-radius: 5px;
+}
+
+
+.card-menu-items p {
+    margin: 0; /* Supprimer les marges par défaut du paragraphe */
+    font-size: 14px; /* Taille de la police */
+}
+.card-menu-items:hover {
+    background-color: #861a1a; /* Darkened color on hover */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    color:  #861a1a;
+}
+
+table {
+    width: 70%;
+    margin-left: 20%;
+    border-collapse: collapse;
+    overflow-y: auto; /* Activer le défilement vertical si nécessaire */
+    border-right: 1px solid #ccc; /* Bordure droite */
+    z-index: 100;
+    overflow-y: auto; /* Activer le défilement vertical si nécessaire */
+}
+
+ td {
+    padding: 8px;
+    border: 2px solid #861a1a;
+    text-align:  3% left;
+    color: black;
+   
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    border: 2px solid #861a1a;
+    text-align:  3% left;
+    color:  #861a1a;
+    
+   
+   
+}
+
+tr , td {
+    background-color: #f2f2f2;
+   
+    border: 2px solid #861a1a;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.action-links {
+    display: flex;
+    justify-content: flex-end; /* Aligner les liens à droite */
+    margin-top: 10px; /* Ajouter un espacement en haut des liens */
+}
+
+.action-links a {
+    padding: 8px 16px; /* Augmenter l'espacement des liens */
+    margin-left: 10px; /* Ajouter un espacement entre les liens */
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.action-links a:hover {
+    background-color: #0056b3;
+}
